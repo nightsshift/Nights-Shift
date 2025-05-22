@@ -2,14 +2,25 @@
 <html>
 <head>
   <title>Nights Shift</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    body { background-color: #111; color: #fff; text-align: center; font-family: Arial, sans-serif; }
-    h1 { color: #ff3333; }
+    body { background-color: #111; color: #fff; font-family: Arial, sans-serif; }
+    .hero { text-align: center; padding: 50px; background: url('hero.jpg') no-repeat center; background-size: cover; }
+    .hero img { max-width: 200px; }
+    .hero h1 { color: #ff3333; font-size: 2.5em; }
+    .btn { background-color: #ff3333; color: #fff; padding: 10px 20px; }
+    .qr { margin-top: 20px; }
   </style>
 </head>
 <body>
-  <img src="logo.png" alt="Nights Shift Logo" style="max-width: 200px;">
-  <h1>Nights Shift: Coming Soon</h1>
-  <p>Plan your night, unlock fight secrets.</p>
+  <div class="hero">
+    <img src="logo.png" alt="Nights Shift Logo">
+    <h1>Nights Shift: Own the Night</h1>
+    <p>Plan, play, and unlock fight-inspired stories.</p>
+    <button class="btn">Join the Waitlist</button>
+    <div class="qr">
+      <img src="qr.png" alt="QR Code" style="max-width: 100px;">
+    </div>
+  </div>
 </body>
 </html>
